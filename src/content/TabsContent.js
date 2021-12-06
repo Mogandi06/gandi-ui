@@ -4,11 +4,7 @@ import { Tabs } from '@mui/material'
 import { Tab } from '@mui/material'
 import { Autocomplete } from '@mui/material'
 import { TextField } from '@mui/material'
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
+
 
 export default function TabsContent() {
     const [value, setValue] = React.useState(0);
@@ -26,6 +22,7 @@ export default function TabsContent() {
             display: 'flex',
             flexWrap: 'wrap',
             justifyContent: 'space-between',
+            alignItems: 'center'
 
 
         }}>
